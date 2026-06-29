@@ -23,21 +23,31 @@
 h1 {
   color: #1B1B1B;
   font-size: 36px;
+  margin: 0 0 40px 0;
 }
 
 h2 {
   color: #1B1B1B;
   font-size: 32px;
+  margin: 0 0 8px 0;
 }
 
 h3 {
   color: #1B1B1B;
   font-size: 28px;
+  margin: 20px 0 4px 0;
 }
 
 h4 {
   font-size: 16px;
   color: #333333;
+  margin: 10px 0 0 0;
+}
+
+.content-card {
+  font-size: 16px;
+  color: #333333;
+  margin: 0px 0 20px 0;
 }
 
 .color-blue {
@@ -59,6 +69,9 @@ h4 {
 ul {
   font-weight: bold;
   font-size: 16px;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 0 48px 0;
 }
 
 .description {
@@ -66,20 +79,28 @@ ul {
   text-align: center;
   font-size: 16px;
   color: #333333;
+  margin-top: 24px;
 }
 
-p {
+.paragraph {
   font-size: 16px;
   color: #333333;
+  margin: 0 0 64px 0;
+}
+
+.content-card, .paragraph {
+  text-align: justify;
 }
 
 .img-container img {
   display: block;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
 }
 
 .final-description {
-  color:#333333;
+  color: #333333;
   font-size: 16px;
   text-align: center;
 }
@@ -99,5 +120,5 @@ footer img {
 }
 
 .footer-divider {
-  margin:40px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
